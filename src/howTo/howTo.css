@@ -1,0 +1,95 @@
+body {
+    background: url("../../images/howToBakground.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #A9D6BE;
+    height: 100%;
+    width: 23%;
+    padding: 5px;
+}
+
+.title {
+    font-family: "Montserrat", serif;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.logo {
+    position: relative;
+    left: 17%;
+}
+
+.menuItem {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.downloadLink {
+    color: black;
+    position: relative;
+    background-color: #FFF068;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+}
+
+.up-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+}
+
+.step-container {
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", serif;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-image {
+    position: relative;
+    left: 25%;
+}

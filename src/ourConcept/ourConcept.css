@@ -1,0 +1,162 @@
+body {
+    background: url("../../images/ourConceptBakcground.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #A9D6BE;
+    height: 100%;
+    width: 23%;
+    padding: 5px;
+}
+
+.logo {
+    position: relative;
+    left: 17%;
+}
+
+.menuItem {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.downloadLink {
+    color: black;
+    position: relative;
+    background-color: #FFF068;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+    width: 77%;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+}
+
+.up-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+}
+
+.title {
+    font-family: "Montserrat", serif;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.first-sentence {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    word-spacing: 5px;
+    font-weight: bolder;
+}
+
+.second-sentence {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    word-spacing: 5px;
+    font-size: 35px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.big-word {
+    font-size: 55px;
+    position: relative;
+    bottom: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.little-word {
+    font-size: 25px;
+    padding-left: 13px;
+    padding-right: 13px;
+    position: relative;
+    top: 10px;
+}
+
+.sub-sentence {
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.button-concept {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-size: 35px;
+    background-color: #A9D6BE;
+    border-radius: 10px;
+    padding: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    color: black;
+}
+
+.logo-bar {
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+    height: 20%;
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    vertical-align: center;
+}
+
+.logo-bar-item {
+    padding-left: 5px;
+}
+
+.list-benefits {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    list-style: circle;
+}
+
+.benefit {
+    padding-top: 20px;
+}

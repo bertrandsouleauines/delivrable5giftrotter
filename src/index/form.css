@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #A9D6BE;
+    height: 100%;
+    width: 23%;
+    padding: 5px;
+}
+
+.logo {
+    position: relative;
+    left: 17%;
+}
+
+.menuItem {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.downloadLink {
+    color: black;
+    position: relative;
+    background-color: #FFF068;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+}

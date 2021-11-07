@@ -1,0 +1,109 @@
+body {
+    background: url("../../images/aroundYouBackground.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #A9D6BE;
+    height: 100%;
+    width: 23%;
+    padding: 5px;
+}
+
+.logo {
+    position: relative;
+    left: 17%;
+}
+
+.menuItem {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.downloadLink {
+    color: black;
+    position: relative;
+    background-color: #FFF068;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+}
+
+.up-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+}
+
+.card {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 30%;
+    height: 540px;
+    border-radius: 30px;
+    font-family: "Montserrat", serif;
+    background-color: white;
+}
+
+.card-title {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #A9D6BE;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.card-image {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 25px;
+    padding: 15px 15px 15px 50px;
+}
+
+.card-scan {
+    background-color: black;
+    color: #A9D6BE;
+    border-radius: 5px;
+    height: 5%;
+    width: 27%;
+    position: relative;
+    padding: 10px;
+    left: 240px;
+    top: 30px;
+    text-decoration: none;
+}

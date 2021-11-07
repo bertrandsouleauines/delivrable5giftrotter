@@ -1,0 +1,202 @@
+body {
+    background: url("../../images/sustainabilityBackground.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #A9D6BE;
+    height: 100%;
+    width: 23%;
+    padding: 5px;
+}
+
+.logo {
+    position: relative;
+    left: 17%;
+}
+
+.menuItem {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.downloadLink {
+    color: black;
+    position: relative;
+    background-color: #FFF068;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+}
+
+.up-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+}
+
+.first-sentence {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+}
+
+.second-sentence {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    position: absolute;
+    top: 39%;
+    left: 32%;
+}
+
+.button-sustainability {
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    font-size: 35px;
+    background-color: #A9D6BE;
+    border-radius: 10px;
+    padding: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    color: black;
+}
+
+.title {
+    font-family: "Montserrat", serif;
+    font-size: 60px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.list-arguments {
+    position: absolute;
+    top: 11%;
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+}
+
+.argument {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    padding: 40px;
+    align-content: center;
+    width: 33%;
+}
+
+.argument-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.right-arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+    transform: rotate(180deg);
+}
+
+.first-argument-title {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.first-argument-content {
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 5%;
+    width: 40%;
+}
+
+.second-argument-title {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.second-argument-content {
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 38%;
+    width: 40%;
+}
+
+.third-argument-title {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    position: absolute;
+    top: 60%;
+    left: 16%;
+}
+
+.third-argument-content {
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 5%;
+    width: 40%;
+}
+
+.list-green {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-family: "Montserrat", serif;
+    font-size: 35px;
+    list-style: circle;
+}
+
+.green {
+    padding-top: 35px;
+}
